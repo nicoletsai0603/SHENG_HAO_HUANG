@@ -1,0 +1,32 @@
+@charset "utf-8";
+html {
+    -webkit-text-size-adjust: none;
+    font-family: "微软雅黑", Arial,sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.error-logo{ padding: 13px 0; width: 100%; background: #fff; display: flex; justify-content: center; }
+.error-logo2{background: url(../images/logo.png) center no-repeat;
+    height: 96px;
+    width: 240px;}
+.no-entry{background:#ffb53a url(../images/error.jpg) center no-repeat;
+    height: 309px;
+    width: 100%;}
+.text{  width: 390px; margin:45px auto; display: flex; justify-content: center; flex-direction:column ;text-align: center; }
+.text h2{  color: #e60021; font-size: 26px; margin-bottom: 15px; font-weight: bold; }
+.text p{color: #333; font-size: 15px;  }
+@media screen and (max-width: 420px) {
+  .no-entry{ width: 100%; background-size:150px; min-height:50px; padding: 15px 0;    height: 229px; } 
+
+
+}
+@media screen and (max-width: 400px) {
+    .text{     width: 90%;  margin:15px auto;}
+    .text h2{ margin-bottom: 5px;}
+  .error-logo2{ height: 52px; background-size:contain; }  
+
+}

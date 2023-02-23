@@ -1,0 +1,139 @@
+<!-- footer -->
+<footer class="footer">
+    <div class="foot-safe">
+        <div class="container">
+            <div class="row flex">
+                <div class="xs-100">
+                    <div class="safe-box">
+                        <div class="img">
+                            <img src="images/safe1.png" />
+                        </div>
+                        <h3>
+                                安全保障
+                             </h3>
+                        <p>
+                            多重安全机制全程保护
+                        </p>
+                    </div>
+                </div>
+                <div class="xs-100">
+                    <div class="safe-box">
+                        <div class="img">
+                            <img src="images/safe2.png" />
+                        </div>
+                        <h3>
+                                支付便捷
+                             </h3>
+                        <p>
+                            快速、确实、便利
+                        </p>
+                    </div>
+                </div>
+                <div class="xs-100">
+                    <div class="safe-box">
+                        <div class="img">
+                            <img src="images/safe3.png" />
+                        </div>
+                        <h3>
+                                彩种齐全
+                             </h3>
+                        <p>
+                            支持多个彩种，任意购买
+                        </p>
+                    </div>
+                </div>
+                <div class="xs-100">
+                    <div class="safe-box">
+                        <div class="img">
+                            <img src="images/safe4.png" />
+                        </div>
+                        <h3>
+                                领奖无忧
+                             </h3>
+                        <p>
+                            奖金自动返至购彩账户
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="foot-links2">
+        <a href="aboutus.html">关于我们</a><em>|</em><a href="contactus.html">联系我们</a><em>|</em><a href="faq.html">常见问题</a><em>|</em><a href="privacy.html">隐私安全</a><em>|</em><a href="responsibility.html">免责声明</a><em>|</em><a href="deposit.html">存款须知</a><em>|</em><a href="withdrawal.html">取款须知</a>
+    </div>
+    <div class="copyright">
+        <span class="qq">
+                  QQ: <b class="l">1955497110</b>&nbsp;<b class="l">2557883598</b>
+             </span>
+        <div class="xs-visible"></div>
+        <span class="email">
+                信箱：<b class="l">cs@ifun008.com</b>
+             </span>
+        <span class="copyright-txt">
+                Copyright © 2018  |  Dawang International  |  All Rights Reserved.
+             </span>
+    </div>
+</footer>
+<!--客服-->
+<div class="fix-right">
+    <a href="javascript:void(0)" onclick="window.open('https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=869735&configID=71573&jid=5418998930&s=1i','_blank', 'width=600,height=600');" target="_blank" class="a1">联络客服</a>
+    <div class="xs-hidden">
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=1955497110&site=qq&menu=yes" target="_blank" class="qq">
+                QQ在线①
+            </a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=2557883598&site=qq&menu=yes" target="_blank" class="qq">
+                QQ在线②
+            </a>
+    </div>
+    <a href="javascript:;" class="gototop" title="返回顶部"></a>
+</div>
+<!-- footer end -->
+<!-- footer end -->
+<script type="text/javascript">
+
+$(window).scroll(function() {
+    var winWidth = $(window).width(),
+        topWindow = $(window).scrollTop();
+    if (topWindow > 0 && winWidth > 1024) {
+        $('.nav-bar').addClass("small-height");
+        $('.header').addClass("pa10");
+        $('.banner-ma-151').addClass("hei");
+        $('.logo').stop(true, true).animate({ 'height': '43px' }, { duration: 100, queue: false });
+
+    } else {
+        $('.nav-bar').removeClass("small-height");
+        $('.header').removeClass("pa10");
+        $('.banner-ma-151').removeClass("hei");
+        $('.logo').stop(true, true).animate({ 'height': '86px' }, { duration: 100, queue: false });
+    }
+
+});
+
+
+$('.fastbet.bet_now.pc').load(function() {
+    $(document).ready(function() {
+        var $iframe = $(this),
+            $contents = $iframe.contents();
+        var winWidth = $(window).width();
+        if (winWidth < 1300) {
+            $contents.find('.betnow .caibox-content ').addClass("pa-50");
+            $contents.find('.betnow .caiboxs ').addClass("overflow-auto");
+        } else {
+            $contents.find('.betnow .caibox-content ').removeClass("pa-50");
+            $contents.find('.betnow .caiboxs ').removeClass("overflow-auto");
+        }
+        $(window).resize(function() {
+            var winWidth = $(window).width();
+            if (winWidth < 1300) {
+                $contents.find('.betnow .caibox-content ').addClass("pa-50");
+                $contents.find('.betnow .caiboxs ').addClass("overflow-auto");
+            } else {
+                $contents.find('.betnow .caibox-content ').removeClass("pa-50");
+                $contents.find('.betnow .caiboxs ').removeClass("overflow-auto");
+            }
+        });
+    });
+});
+</script>
+<!--#include file="/_goto_mobile_tip.shtml" -->

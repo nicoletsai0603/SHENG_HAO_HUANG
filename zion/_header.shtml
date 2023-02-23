@@ -1,0 +1,175 @@
+<!-- header -->
+<div id="greybg"></div>
+<!--header-->
+<section class="fix-top">
+    <header class="header">
+        <div class="container row flex_end">
+            <!--登陆-->
+            <div id="_player_login_area" style="width: 100%"></div>
+            <!--登陆-->
+            <a href="javascript:;" class="fr xs-visible btn-menu">
+                    <i class="fa fa-reorder"></i>
+                </a>
+        </div>
+    </header>
+    <!--nav-->
+    <nav class="nav-bar">
+        <div class="container fflex">
+            <a href="/" class="logo fl mo"></a>
+            <ul class="nav fflex ai-center sm-fflex">
+                <li class="xs-visible sm-visible"><a class="showH mo-all" href="javascript:;" onclick="showMenu()">全部彩种</a></li>
+                <li class="home"><a href="index.html">首页</a></li>
+                <li class="lobby"><a href="lobby.html">标准玩法</a></li>
+                <li class="lobby-double"><a href="lobby-double.html">信用玩法</a></li>
+                <li class="award"><a href="award.html">开奖公告</a></li>
+                <li class="trend"><a href="trend.html">走势图表</a></li>
+                <li class="promotions"><a href="promotions.html">最新优惠</a></li>
+                <li class="vip"><a href="vip.html">VIP会所</a></li>
+                <li class="aboutus"><a href="aboutus.html">帮助中心</a></li>
+                <li> <a href="javascript:;" class="all_color pc" onclick="showMenu()">全部彩种<i class="fas fa-th-large"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="pop-lottery-box">
+            <div class="cai-list ">
+                <div class="flex">
+                    <!-- 重慶時時彩 -->
+                    <a href="lottery-official-1.html" class="lottery flip_wrap">
+                        <!-- 大容器 -->
+                        <div class="flip">
+                            <!-- 實現翻牌容器 -->
+                            <div class="side front">
+                                <!-- 牌正面 -->
+                                <img src="images/lottery/1.jpg" class="" />
+                            </div>
+                            <div class="side back">
+                                <!-- 牌背面 -->
+                                <img src="images/lottery/1.jpg" class="" />
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 重慶時時彩 -->
+                    <!-- 山東11選5 -->
+                    <a href="lottery-official-5.html" class="lottery flip_wrap">
+                        <!-- 大容器 -->
+                        <div class="flip">
+                            <!-- 實現翻牌容器 -->
+                            <div class="side front">
+                                <!-- 牌正面 -->
+                                <img src="images/lottery/2.jpg" class="" />
+                            </div>
+                            <div class="side back">
+                                <!-- 牌背面 -->
+                                <img src="images/lottery/2.jpg" class="" />
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 山東11選5 -->
+                    <!-- 廣東11選5 -->
+                    <a href="lottery-official-7.html" class="lottery flip_wrap">
+                        <!-- 大容器 -->
+                        <div class="flip">
+                            <!-- 實現翻牌容器 -->
+                            <div class="side front">
+                                <!-- 牌正面 -->
+                                <img src="images/lottery/3.jpg" class="" />
+                            </div>
+                            <div class="side back">
+                                <!-- 牌背面 -->
+                                <img src="images/lottery/3.jpg" class="" />
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 廣東11選5 -->
+                </div>
+                <div class="flex">
+                    <!-- 江苏快三 -->
+                    <a href="lottery-official-8.html" class="lottery flip_wrap">
+                        <!-- 大容器 -->
+                        <div class="flip">
+                            <!-- 實現翻牌容器 -->
+                            <div class="side front">
+                                <!-- 牌正面 -->
+                                <img src="images/lottery/4.jpg" class="" />
+                            </div>
+                            <div class="side back">
+                                <!-- 牌背面 -->
+                                <img src="images/lottery/4.jpg" class="" />
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 江苏快三 -->
+                    <!-- 江西11選5 -->
+                    <a href="lottery-official-6.html" class="lottery flip_wrap">
+                        <!-- 大容器 -->
+                        <div class="flip">
+                            <!-- 實現翻牌容器 -->
+                            <div class="side front">
+                                <!-- 牌正面 -->
+                                <img src="images/lottery/5.jpg" class="" />
+                            </div>
+                            <div class="side back">
+                                <!-- 牌背面 -->
+                                <img src="images/lottery/5.jpg" class="" />
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 江西11選5 -->
+                    <!-- 北京賽車  -->
+                    <a href="lottery-official-10.html" class="lottery flip_wrap">
+                        <!-- 大容器 -->
+                        <div class="flip">
+                            <!-- 實現翻牌容器 -->
+                            <div class="side front">
+                                <!-- 牌正面 -->
+                                <img src="images/lottery/6.jpg" class="" />
+                            </div>
+                            <div class="side back">
+                                <!-- 牌背面 -->
+                                <img src="images/lottery/6.jpg" class="" />
+                            </div>
+                        </div>
+                    </a>
+                    <!-- 北京賽車 -->
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="cai-list-links">
+                <div class="row">
+                    <div class="label">
+                        高频彩<i class="fa fa-caret-right"></i>
+                    </div>
+                    <div>
+                        <a href="lottery-official-1.html">重庆时时彩</a>
+                        <a href="lottery-official-2.html">新疆时时彩</a>
+                       <!--  <a href="lottery-official-3.html">天津时时彩</a> -->
+                        <a href="lottery-official-5.html">山东11选5</a>
+                        <a href="lottery-official-6.html">江西11选5</a>
+                        <a href="lottery-official-7.html">广东11选5</a>
+                        <a href="lottery-official-8.html">江苏快三</a>
+                        <a href="lottery-official-9.html">安徽快三</a>
+                        <a href="lottery-official-10.html">北京赛车</a>
+                        <a href="lottery-official-14.html">重庆快乐10分</a>
+                        <a href="lottery-official-15.html">广东快乐10分</a>
+                        <a href="lottery-official-18.html">乐趣分分彩</a>
+                        <a href="lottery-official-19.html">乐趣秒秒彩</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="label label2">
+                        低频彩<i class="fa fa-caret-right"></i>
+                    </div>
+                    <div>
+                        <a href="lottery-official-11.html">福彩3D</a>
+                        <a href="lottery-official-4.html">香港六合彩</a>
+                        <a href="lottery-official-12.html">排列三</a>
+                        <a href="lottery-official-13.html">排列五</a>
+                        <a href="lottery-official-17.html">双色球</a>
+                        <a href="lottery-official-16.html">超级大乐透</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

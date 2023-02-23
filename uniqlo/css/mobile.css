@@ -1,0 +1,11 @@
+@media (max-width:640px) {
+    .aa {
+        display: block;
+        width: 100% !important;
+        overflow: hidden;
+        justify-content: flex-start;
+    }
+    img {
+        width: 100%;
+    }
+}

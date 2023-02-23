@@ -1,0 +1,614 @@
+@media screen and (max-width:1500px) {
+    .title {
+        font-size: 4.1rem;
+    }
+    .wrap {
+        width: 100%;
+    }
+    .height50 {
+        width: 100%;
+        text-align: center;
+    }
+    .main1 {
+        width: 90%;
+        margin: auto;
+    }
+   .main1 img {
+    width: 120%;
+    margin-left: -12%;
+}
+
+    .profession {
+        margin-top: 15%
+    }
+    .flexcolum{ width: 14%; margin: 15px 15px;  }
+    #mobile_nav { width: 100%; }
+
+}
+
+@media screen and (max-width:1342px) {
+    h2.title2{ font-size: 45px; }
+    #section2  .wrap {display: inline-block;}
+    .flex5{  flex-wrap:wrap;  text-align: center; width: 100% }
+
+   .advantage{ width: 30%; margin-bottom: 35px;     display: inline-flex; }
+   .advantage h3{ font-size: 30px; }
+   .advantage p{font-size: 18px; }
+   .safe1 {height: 80px;} 
+   footer { display: none; }
+}
+
+@media screen and (max-width:1300px) {
+    .with55 {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1054px) {
+    .customer {
+        width: 80%;
+    }
+    .flexcolum{ width: 25% }
+    .pc{ display: none }
+    .mo{ display: block;  width: 50%; margin: auto;}
+    #section1{ padding:100px 0;  }
+
+}
+
+@media screen and (max-width:1024px) {
+#section1 {
+    background: url(../img/section2.jpg) 25% no-repeat;
+    position: relative;
+}
+    #menu{ margin-top: 0 }
+    #menu li a{  margin: 5px 0; width: 100%;}
+    #section2 h2{margin: 20px auto; margin-top:50px; display: inline-block;  }
+    .column {
+        flex-direction: column;
+    }
+   
+    .section5 {
+        background: rgba(0, 0, 0, 0.7) url(../img/section5.jpg) 0 0 no-repeat;
+        background-size: cover;
+    }
+    #myVideo,.toplogo.animated {
+        display: none;
+    }
+    .with55 {
+        width: 95%
+    }
+    .width65 {
+        width: 100%;
+    }
+
+    .good1 i:hover {
+        width: 130px;
+        height: 130px;
+    }
+    .profe2 {
+        background: transparent;
+    }
+
+
+    #menu li.toplogo a {
+        width: 100%;
+    }
+    .menu {
+        width: auto;
+    }
+    .mo_logo {
+        background: url(../img/toplogo.png) 0 center no-repeat;
+        width: 100px;
+        height: 40px;
+        display: inline-block;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        z-index: 72;
+        color: #fff;
+        padding-left: 40px;
+        font-family: "微軟正黑體";
+        background-size: contain;
+    }
+
+    #mobile_menu_labIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        z-index: 9999;
+        background: rgb(211, 171, 120);
+        background: linear-gradient(37deg, rgba(211, 171, 120, 1) 0%, rgba(125, 82, 48, 1) 100%);
+        width: 40px;
+        height: 40px;
+        border-radius: 99px;
+    }
+    .toplogo {
+        display: none;
+    }
+    #menu li.toplogo a::after {
+        display: none;
+    }
+    #menu li.toplogo a::before {
+        content: "";
+        background: url(../img/toplogo.png) 0 0 no-repeat;
+        left: auto;
+        width: 40px;
+        height: 40px;
+        background-size: contain;
+        display: inline-block;
+        margin-left: 0;
+        position: relative;
+        padding-right: auto;
+    }
+    #menu li.toplogo.active a::before {
+        background: transparent url(../img/toplogo_active.png) center no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-right: 0;
+        position: relative;
+    }
+    #mobile_nav {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 69;
+        overflow-y: auto;
+        transition: none;
+    }
+    #menu li.language a {
+        padding: 10px
+    }
+    #menu {
+        background: rgb(0, 0, 0, 90%);
+
+
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 69;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    #menu li {
+        width: 80%;
+    }
+
+
+
+    .menu ul li {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .menu ul li a.active {
+        color: #fff;
+    }
+    /*手機板logo*/
+    .mobile_logo {
+        width: 112px;
+        height: 18px;
+        margin: 8px auto;
+        position: relative;
+        z-index: 9;
+        background: url(../images/logo.jpg) 0 0 no-repeat;
+        background-size: cover;
+        display: block
+    }
+
+
+    /*mobile選單*/
+    #menu li {
+        margin: 0;
+    }
+
+    #menu_mobile {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 1em;
+        position: relative;
+        display: block;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        display: block;
+    }
+    .hamburger.black .line {
+        background: rgba(21, 33, 51, 0.42)
+    }
+    .hamburger2 {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+
+
+    .hamburger .line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        display: block;
+        margin: 4px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border-radius: 50px;
+    }
+
+    .hamburger:hover {
+        cursor: pointer;
+    }
+    .hamburger.is-active {
+        background: transparent;
+        margin-top: 8px;
+    }
+    #hamburger-1.is-active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    #hamburger-1.is-active .line:nth-child(1) {
+        -webkit-transform: translateY(3px) rotate(45deg);
+        -ms-transform: translateY(3px) rotate(45deg);
+        -o-transform: translateY(3px) rotate(45deg);
+        transform: translateY(3px) rotate(45deg);
+    }
+
+    #hamburger-1.is-active .line:nth-child(3) {
+        -webkit-transform: translateY(-11px) rotate(-45deg);
+        -ms-transform: translateY(-11px) rotate(-45deg);
+        -o-transform: translateY(-11px) rotate(-45deg);
+        transform: translateY(-11px) rotate(-45deg);
+    }
+    #section3 h2 {
+        display: none;
+    }
+    .section2-width65 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    .customer {
+        width: 90%;
+    }
+    #section5 .fp-tableCell {
+        padding: 55px 0;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .fp-tableCell {
+        width: 100vw;
+    }
+    .fp-section.fp-table,
+    .fp-slide.fp-table {
+        padding: 0
+    }
+    .section {
+        height: 100%;
+    }
+.advantage{ width: 45%  }
+
+}
+
+
+
+
+@media screen and (max-width:626px) {
+    .logo {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:617px) {
+    .logo {
+        width: 180px;
+        margin-bottom: 3px;
+    }
+    .profession {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    h2.title2{ font-size: 37px; width: 90%; margin: auto; }
+    h2.title3{ font-size: 25px;  width: 90%; margin: auto;}
+   .globeflex{ display: block; }
+    .flexcolum{ width: 45%;    margin: 15px 2%; }
+    #section0 {
+        background: #000 url(../img/section0_pc.jpg) center no-repeat;
+
+        background-size: 350%;
+    }
+    .mo{ display: none }
+    .mac {
+
+        width: 100%;
+       
+        height: auto
+    }
+
+   
+
+    #section1 h2.mobile {
+        position: relative;
+        display: block;
+        left: auto;
+        top: auto;
+        margin-left: 0;
+    }
+    .profe {
+        padding: 10px;
+        border-bottom: rgba(250, 250, 250, 0.8) 1px solid;
+    }
+
+    .mor_b {
+        padding-left: 20px;
+        width: calc(100% - 150px)
+    }
+
+    .width65 {
+        width: 100%;
+        flex-direction: column;
+    }
+     footer{ display: block; position: relative; }
+  
+}
+
+@media screen and (max-width:681px) {
+    .with55 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .onoffswitch,
+    .ios {
+        width: 50%;
+        margin: 10px 0
+    }
+    .onoffswitch {
+        margin: 30px 0;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .section2-width65 {
+        display: inline-block;
+    }
+    .good1 {
+        width: 50%;
+        float: left;
+        display: inline-flex;
+        margin-bottom: 15px;
+    }
+
+    .section2-width65 {
+        margin: 0;
+    }
+    .section_center {
+        padding: 25px 0;
+        padding-bottom: 50px;
+    }
+    .advantage{ width: 45% ; margin: 15px 2.5%; }
+
+}
+
+@media screen and (max-width:566px) {
+    .title {
+        font-size: 4rem
+    }
+    .main1 {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .link2 {
+        flex-direction: column;
+    }
+    .link2 h4 {
+        width: 100%;
+        margin: 10px 0;
+        margin-left: 30%;
+        justify-content: flex-start
+    }
+    .section4 {
+        background: transparent;
+    }
+}
+
+
+
+@media screen and (max-width:553px) {
+
+    .profession {
+        font-size: 35px;
+    }
+
+    .height50 {
+        padding-top: 5%;
+    }
+    #section4 h3,
+    .customer_text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .computer img.comsumer_mac {
+        width: 350px;
+    }
+    .notebook {
+        bottom: 0
+    }
+    .all-lottery-tab li {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:511px) {
+    .iphone {
+        left: -40px;
+        bottom: 0;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+
+
+    .mac {
+
+        width: 95%;
+    }
+
+    #section0 {
+        background-size: 290%
+    }
+    .onoffswitch {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:493px) {
+    .title_text{ display: none; }
+    .banner_text{ display: block; width: 100%; margin: 5% 0; margin-top:15%;  }
+  
+}
+
+@media screen and (max-width:480px) {
+    .customer {
+        width: 90%;
+    }
+    .computer {
+        height: 440px
+    }
+    .computer img.comsumer_mac {
+        width: 300px;
+    }
+    .notebook {
+        width: 340px;
+        bottom: 25px
+    }
+    .customer_text {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:459px) {
+
+    .profession {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:419px) {
+    .computer {
+        margin-left: 0;
+        height: 540px;
+    }
+    .notebook {
+        bottom: 125px;
+        left: 50%;
+        margin-left: -170px;
+    }
+    .iphone {
+        left: 50%;
+        margin-left: -110px;
+    }
+    .advantage{ width: 80% ; margin: 15px 2.5%; }
+
+}
+
+@media screen and (max-width:390px) {
+
+    .profession {
+        font-size: 25px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .logo {
+        display: none;
+    }
+}
+
+#actions {
+    position: fixed;
+    top: 73px;
+    left: 30px;
+    z-index: 99999;
+}
+
+#actions a {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    margin: 2px;
+    color: #ccc;
+    display: inline-block;
+}
+
+#actions a:hover {
+    color: #fff;
+    background: #81A140;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Overwriting styles for control arrows for slides
+        * --------------------------------------- */
+
+.fp-controlArrow.fp-prev {
+    left: 50px;
+}
+
+.fp-controlArrow.fp-next {
+    right: 50px;
+}

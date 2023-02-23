@@ -1,0 +1,335 @@
+                    @media screen and (max-width: 1400px) {
+                    .container {
+                        width: 100% !important;
+                        display: flex;
+                    }
+                    .banner-wrap {
+                        width: 100% !important;
+                    }
+                    .header {
+                        padding: 12px;
+                    }
+                    .index_flex {
+                        display: flex;
+                        justify-content: center;
+                        width: 95vw;
+                        margin: auto
+                    }
+                }
+
+
+
+
+
+                @media screen and (min-width: 1300px) {
+                    .swiper-container {
+                        /* 設定幻燈片的寬度跟高度 */
+                        width: 100vw;
+                    }
+
+
+                    .swiper-container img {
+                        width: auto;
+                        margin: auto;
+                        float: left;
+                    }
+                }
+
+                @media screen and (max-width: 1300px) {
+                    .swiper-container {
+                        /* 設定幻燈片的寬度跟高度 */
+                        width: 100vw;
+                        min-height: 365px;
+                    }
+                    .swiper-container img {
+                        width: auto;
+                        float: left;
+                        height: 365px;
+                    }
+
+
+
+                    .foot-links-box {
+                        max-width: 100%;
+                    }
+                    .fastbet.bet_now {
+                        height: 365px;
+                        width: 35%
+                    }
+                }
+
+                @media screen and (min-width: 1300px) and (max-width: 1390px) {
+
+                    .swiper-container img {
+                        margin-right: -5%
+                    }
+                }
+
+                @media screen and (max-width: 1200px) {
+                    .swiper-container {
+                        /* 設定幻燈片的寬度跟高度 */
+                        width: 100vw;
+                        min-height: auto;
+                    }
+                    .move.hot,
+                    .w752 {
+                        width: calc(50% - 10px);
+                        float: left;
+                    }
+
+                    .bet_now.mobile {
+                        display: block;
+                        width: 100%;
+                        position: relative;
+                    }
+                    .bet_now.pc {
+                        display: none;
+                    }
+                    .bet_now.mobile {
+                        height: 500px;
+                        width: 95%;
+                        margin: auto;
+                    }
+                    .swiper-container img {
+                        float: none;
+                        margin: auto;
+                    }
+                    .fastbet.public {
+                        width: 100%;
+                    }
+                    .app-download {
+                        width: 95% !important;
+                        margin: auto;
+                    }
+                    .ma-t-30 {
+                        display: flex;
+                    }
+                    .hot {
+                        margin-bottom: 20px;
+                    }
+
+                    .banner-ma-151 {
+                        margin-top: 55px;
+                    }
+                    .betnow .caibox-content.pa-50 {
+                        padding: 50px 0;
+                        padding-top: 120px;
+                    }
+                    .betnow .caiboxs.overflow-auto {
+                        overflow: auto;
+                    }
+                    .pa-5 {
+                        padding: 15px;
+                    }
+                    .fix-top .login-form {
+                        display: none;
+                    }
+                    .mobile.app-download {
+                        width: 260px !important;
+                        display: block;
+                        margin-left: 10px;
+                    }
+                    .bet_now.mobile {
+                        height: 450px;
+                    }
+                    .app-download {
+                        display: none;
+                    }
+                    .box2 {
+                        display: flex;
+                    }
+                    .mobile-qr {
+                        height: 230px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                @media only screen and (min-width: 1100px) {
+                    .foot-links-box {
+                        max-width: 100%;
+                    }
+                }
+
+                @media screen and (max-width: 1120px) {
+                    .nav-bar .nav a {
+                        padding: 0 10px
+                    }
+
+                    .logo {
+                        height: 60px;
+                        width: 208px;
+                        background-size: contain
+                    }
+                }
+
+                @media only screen and (max-width: 1024px) {
+                    .fix-top .fflex {
+                        display: block;
+                        width: 100% !important;
+                    }
+                    .move.hot,
+                    .w752 {
+                        width: calc(100% - 10px);
+                        float: none;
+                        margin: 10px auto
+                    }
+                    .index_flex {
+                        height: auto
+                    }
+                    .section-box1-content .left{ padding-bottom: 364px  }
+                    .mo {
+                        display: none;
+                    }
+
+                    .nav-bar .nav a {
+                        padding: 0 10px
+                    }
+
+                    .xs-visible {
+                        display: block!important;
+                    }
+
+                    .btn-menu {
+                        border: 1px solid #007cc5;
+                        width: 30px;
+                        height: 30px;
+                        margin-left: 10px;
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                        border-radius: 3px;
+                        text-align: center;
+                        line-height: 28px;
+                        font-size: 16px;
+                        color: #007cc5;
+                    }
+                    .btn-menu:hover {
+                        background: #007cc5;
+                        color: #fff
+                    }
+                    .loginbtn.mobile {
+                        display: block;
+                    }
+                    .btn-playInfo {
+                        display: none !important;
+                    }
+                    #_player_login_area {
+                        right: 50px;
+                        top: -30px;
+                    }
+                    .ismobile {
+                        display: block;
+                    }
+                    .nav-bar {
+                        height: auto;
+                        position: fixed;
+                        width: 200px;
+                        z-index: 1001;
+                        top: 0;
+                        left: -250px;
+                        height: 100%;
+                        overflow-y: auto;
+                        -webkit-transition: 0.3s;
+                        -moz-transition: 0.3s;
+                        -ms-transition: 0.3s;
+                        -o-transition: 0.3s;
+                        transition: 0.3s;
+                    }
+
+                    .nav-bar.on {
+                        left: 0;
+                        background: #fff;
+                        padding: 20px 0
+                    }
+                    .nav-bar .nav li.index a {
+                        margin: auto;
+                        text-indent: -9999px
+                    }
+                    .all_lottery a {
+                        display: none;
+                    }
+                    .nav-bar .nav li {
+                        padding: 0;
+                        text-align: center;
+                        margin-bottom: 1px;
+                    }
+
+
+
+                    .nav-bar .nav li.on a,
+                    .nav-bar .nav li:hover a {
+                        border-radius: 0 0 0;
+                        line-height: 43px;
+                        height: 43px;
+                    }
+
+                    .nav-bar .nav .hr {
+                        margin: 0;
+                        height: 1px;
+                        line-height: 1px;
+                        background: #f74e4e;
+                    }
+
+                    .fix-top .sm-fflex {
+                        display: block;
+                    }
+                    .fix-top .sm-fflex.login-form {
+                        display: none;
+                    }
+                    .swiper-container img {
+                        width: 100vw;
+                        height: auto;
+                    }
+
+                    .title-ma-35 {
+                        margin: 60px 0;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                @media only screen and (max-width: 1000px) {
+                    .index_flex {
+                        display: block;
+                    }
+
+                    @media screen and (max-width: 920px) {
+                        .inside-banner-bg img {
+                            width: 100%;
+                            height: auto;
+                            float: left;
+                        }
+                        .banner2 {
+                            background: none;
+                        }
+                        .inside-banner-bg {
+                            display: block;
+                        }
+                    }
+                    @media screen and (max-width: 767px) {
+                        .nav-bar .nav a.all_color.pc {
+                            display: none;
+                        }
+                        .memebr_ico {
+                            margin-left: 2%
+                        }
+                    }
+                    @media screen and (max-width: 593px) {
+                        .box2 {
+                            display: block;
+                        }
+                        .mobile.app-download {
+                            margin: 15px auto
+                        }
+                        .mobile-qr {
+                            height: auto;
+                        }
+                        .all-lottery-tab li {
+                            width: 35%
+                        }
+                        .tab-content {
+                            width: 95vw;
+                            margin: auto
+                        }
+                    }

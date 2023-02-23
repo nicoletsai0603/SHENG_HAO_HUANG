@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="587" height="416" viewBox="0 0 587 416">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_373" data-name="矩形 373" width="587" height="416" transform="translate(290 1104)" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="new_top1" transform="translate(-290 -1104)" clip-path="url(#clip-path)">
+    <g id="组_6064" data-name="组 6064">
+      <rect id="矩形_56" data-name="矩形 56" width="373" height="63" transform="translate(291 1144)" fill="#f99d25"/>
+      <text id="社會住宅興建計畫" transform="translate(321 1190)" fill="#fff" font-size="34" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei"><tspan x="0" y="0">社會住宅興建計畫</tspan></text>
+      <text id="合計達1_萬9_876_戶" data-name="合計達1 萬9,876 戶" transform="translate(321 1252)" fill="#595757" font-size="25" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei"><tspan x="0" y="0" fill="#595757">合計達</tspan><tspan y="0" text-decoration="underline" fill="#000">1 萬9,876</tspan><tspan y="0" fill="#000"> </tspan><tspan y="0" fill="#595757">戶</tspan></text>
+      <g id="house" transform="translate(90.623 1268.237)">
+        <g id="组_5898" data-name="组 5898" transform="translate(199.377 126.223)">
+          <rect id="矩形_57" data-name="矩形 57" width="8.23" height="15.885" transform="translate(53.556 2.581)" fill="#595757"/>
+          <rect id="矩形_58" data-name="矩形 58" width="5.018" height="46.823" transform="matrix(0.608, -0.794, 0.794, 0.608, 34.374, 3.984)" fill="#595757"/>
+          <rect id="矩形_59" data-name="矩形 59" width="46.824" height="5.019" transform="matrix(0.799, -0.601, 0.601, 0.799, 0, 28.127)" fill="#595757"/>
+          <path id="路径_6074" data-name="路径 6074" d="M229.87,69.163,201.739,89.114v30.859h9.042V95.142h12.2v24.831H258V89.114Zm21.1,40.619h-18.8V95.142h18.8Z" transform="translate(-192.726 -57.968)" fill="#595757"/>
+        </g>
+        <g id="组_5899" data-name="组 5899" transform="translate(268.377 126.223)">
+          <rect id="矩形_60" data-name="矩形 60" width="5.018" height="46.823" transform="translate(34.373 3.986) rotate(-52.538)" fill="#595757"/>
+          <rect id="矩形_61" data-name="矩形 61" width="46.823" height="5.019" transform="translate(0 28.129) rotate(-36.923)" fill="#595757"/>
+          <path id="路径_6075" data-name="路径 6075" d="M253.3,69.369,225.164,89.323v30.859h56.269V89.323ZM249.38,106.4H230.475V92.051H249.38Zm24.976,0h-18.9V92.051h18.9Z" transform="translate(-216.154 -58.176)" fill="#595757"/>
+        </g>
+        <g id="组_5900" data-name="组 5900" transform="translate(337.377 115.223)">
+          <path id="路径_6076" data-name="路径 6076" d="M281.083,84.842l-2.413,2.98L249.313,66.5l2.412-2.981Z" transform="translate(-208.599 -63.517)" fill="#6a6e64"/>
+          <path id="路径_6077" data-name="路径 6077" d="M271.766,63.517l2.383,3L244.578,87.578l-2.382-3Z" transform="translate(-228.637 -63.517)" fill="#6a6e64"/>
+          <path id="路径_6078" data-name="路径 6078" d="M297.628,98.452V80.676l-22-14.655-22,14.655v16.46l-12.843,10.37v22.1h28.707V112.527h12.774v17.081h27.7v-22.1Zm-34.163,20.966H248.871v-6.891h14.594Zm9.1-26.2H257.78V82.679h14.785Zm4.746-10.542H292.1V93.221H277.311ZM303.8,119.417h-14.59v-6.891H303.8Z" transform="translate(-232.606 -56.468)" fill="#595757"/>
+          <path id="路径_6079" data-name="路径 6079" d="M256.662,72.653v4.88s14.64,11.389,15.021,11.1a35.022,35.022,0,0,0,2.3-3.35Z" transform="translate(-187.909 -37.796)" fill="#6a6e64"/>
+          <path id="路径_6080" data-name="路径 6080" d="M255.96,72.653v4.88s-14.64,11.389-15.025,11.1a35.648,35.648,0,0,1-2.293-3.35Z" transform="translate(-238.642 -37.796)" fill="#6a6e64"/>
+        </g>
+        <g id="组_5901" data-name="组 5901" transform="translate(438.377 105.36)">
+          <path id="路径_6081" data-name="路径 6081" d="M272.552,47V210.807h21.134V177.989h17.746v32.818h22.646V47Zm19.626,105.071H281.744V126.5h10.434Zm0-32.7H281.744V93.8h10.434Zm0-31.661H281.744V62.134h10.434Zm16.354,64.364H298.094V126.5h10.438Zm0-32.7H298.094V93.8h10.438Zm0-31.661H298.094V62.134h10.438Zm16.354,64.364H314.447V126.5h10.438Zm0-32.7H314.447V93.8h10.438Zm0-31.661H314.447V62.134h10.438Z" transform="translate(-231.234 -128)" fill="#f99d25"/>
+          <path id="路径_6082" data-name="路径 6082" d="M299.392,163.147v-16H312.61V136.009H299.392v-16H312.61V107.478H299.392v-16H312.61V79.68H299.392V63.672H312.61V53.238H260.077V180.919H312.61V163.147Zm-13.046,0h-16v-16h16Zm0-27.138h-16v-16h16Zm0-28.53h-16v-16h16Zm0-27.8h-16V63.672h16Z" transform="translate(-274.077 -98.209)" fill="#f99d25"/>
+          <path id="路径_6083" data-name="路径 6083" d="M330.483,160.221V57.474H287.342v9.742h32.7v5.565h-32.7v9.742h32.7v5.538h-32.7V97.8h32.7v4.727h-32.7v9.742h32.7v5.215h-32.7v9.747h32.7v9.042h-32.7V168.46h50.1v-8.239Zm-18.092-.461H292.907V145.5h19.484Z" transform="translate(-180.441 -86.174)" fill="#f99d25"/>
+        </g>
+        <g id="组_5902" data-name="组 5902" transform="translate(603.377 106.223)">
+          <rect id="矩形_62" data-name="矩形 62" width="79.803" height="9.515" transform="translate(0 72.591)" fill="#595757"/>
+          <rect id="矩形_63" data-name="矩形 63" width="3.376" height="44.813" transform="translate(72.436 29.312)" fill="#595757"/>
+          <rect id="矩形_64" data-name="矩形 64" width="3.376" height="44.813" transform="translate(5.064 29.312)" fill="#595757"/>
+          <rect id="矩形_65" data-name="矩形 65" width="26.397" height="3.376" transform="translate(13.504 36.065)" fill="#595757"/>
+          <rect id="矩形_66" data-name="矩形 66" width="31.102" height="3.376" transform="translate(12.175 59.802)" fill="#595757"/>
+          <rect id="矩形_67" data-name="矩形 67" width="3.837" height="25.426" transform="translate(13.504 36.065)" fill="#595757"/>
+          <rect id="矩形_68" data-name="矩形 68" width="3.837" height="25.426" transform="translate(36.064 36.065)" fill="#595757"/>
+          <path id="路径_6084" data-name="路径 6084" d="M315.647,70.65v32.381h20.412V70.65Zm3.838,18.722h-2V80.318h2Z" transform="translate(-268.228 -34.584)" fill="#595757"/>
+          <path id="路径_6085" data-name="路径 6085" d="M383.022,91.431h-79.8L314.575,61.2H369.21Z" transform="translate(-303.219 -61.197)" fill="#595757"/>
+          <rect id="矩形_69" data-name="矩形 69" width="79.803" height="12.278" transform="translate(0 17.955)" fill="#595757"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

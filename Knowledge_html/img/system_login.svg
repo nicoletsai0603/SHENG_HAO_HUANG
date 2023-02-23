@@ -1,0 +1,9 @@
+<svg id="system_login" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369" height="154" viewBox="0 0 369 154">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse id="椭圆_16" data-name="椭圆 16" cx="184.5" cy="77" rx="184.5" ry="77" opacity="0.56" fill="url(#radial-gradient)"/>
+</svg>

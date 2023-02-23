@@ -1,0 +1,267 @@
+@media only screen and (max-width: 1400px) {
+.container{ width: 100%; }
+}
+@media only screen and (min-width: 1100px) {
+ 
+    .activity1-box .txt1 {
+        width: 100%;
+        
+    }
+    .activity1-box .txt1 h1 {
+        font-size: 40px;
+    }
+    .activity2-box .txt1 h1 {
+        font-size: 40px;
+    }
+    .foot-links-box {
+        max-width: 80%;
+        float: right;
+    }
+
+
+}
+
+@media only screen and (max-width: 1099px) {
+    .pop-lottery-box {
+        left: 0;
+        margin-left: 0;
+    }
+    .login-form {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 96px;
+    }
+    .minheightAuto {
+        min-height: 1px!important;
+    }
+    .section-box1-content {
+        height: auto;
+    }
+    .open-boxs {
+        margin-bottom: 10px;
+    }
+    
+    .foot-safe .row>div {
+        width: 49.999%;
+    }
+    .foot-safe .row>div:nth-of-type(2n) .safe-box:after {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+.hd-list li img{ width: 100vw ;    float: left;}  
+.hd-list li a figure { display:block; }
+.hd-list li a .detail{ display:none; }
+.foot-safe{ display: none; }
+}
+
+@media only screen and (max-width: 767px) {
+    .agent-article-box {
+        background: #fff;
+    }
+    .btn-group a {
+        width: 120px;
+    }
+    .hd-list {
+    }
+    .hd-list li {
+    }
+    .open-item-big .btns {
+        display: block;
+        padding-top: 5px;
+    }
+    .pop-lottery-box {
+        left: 50%;
+        margin-left: -150px;
+        top: 15px;
+    }
+    .header .name {
+        margin-top: 0;
+    }
+    .login-form {
+        top: 60px;
+    }
+   
+    .logo {
+        width: 150px;
+        height: 60px;
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+    .loginbtn-click,
+    .btn-register span,
+    .btn-playInfo span {
+        display: inline-block;
+        width: auto;
+        height: 30px;
+        padding: 0 5px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .btn-menu 
+    .header {
+        position: relative;
+        z-index: 99;
+    }
+    
+    .foot-safe .row>div .safe-box:after {
+        display: none!important;
+    }
+    .copyright-txt {
+        display: block;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .login-form .form input {
+        max-width: 40%;
+    }
+    .reg-page {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+    .reg-page~.footer {
+        margin-top: 0;
+    }
+    .regform .hd {
+        height: auto;
+        border-radius: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .regform .hd .title {
+        text-align: center;
+        padding: 0;
+    }
+    .regform .hd .title img {
+        max-width: 90%;
+    }
+    .regform .bd {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .regform .bd form {
+        max-width: 100%;
+    }
+    .lottery-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .login-form .form input {
+        max-width: 37%;
+    }
+}
+
+@-moz-document url-prefix() {
+    .login-form .form input[type="text"] {
+        border-right: 4px solid #FFAE44
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .fflex {
+        display: -webkit-flex;
+        -webkit-flex-flow: row;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: flex;
+        flex-flow: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+    .sm-50 {
+        width: 50%!important;
+    }
+    .sm-100 {
+        width: 100%!important;
+    }
+    .sm-visible {
+        display: block!important;
+    }
+    .sm-visible-inline {
+        display: inline!important;
+    }
+    .sm-hidden {
+        display: none!important;
+    }
+    .sm-text-right {
+        text-align: right;
+    }
+    .sm-text-center {
+        text-align: center;
+    }
+    .sm-text-left {
+        text-align: left;
+    }
+    .sm-fflex {
+        width: 100%;
+        display: -webkit-flex;
+        -webkit-flex-flow: row;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: flex;
+        flex-flow: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .sm-t5 {
+        margin-top: 5px;
+    }
+    .sm-t10 {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .xs-50 {
+        width: 100%!important;
+    }
+    .xs-100 {
+        width: 100%!important;
+    }
+    
+    .xs-visible-inline {
+        display: inline!important;
+    }
+    .xs-hidden {
+        display: none!important;
+    }
+    .xs-text-right {
+        text-align: right;
+    }
+    .xs-text-center {
+        text-align: center;
+    }
+    .xs-text-left {
+        text-align: left;
+    }
+    .xs-fflex {
+        width: 100%;
+        display: -webkit-flex;
+        -webkit-flex-flow: row;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: flex;
+        flex-flow: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .xs-t5 {
+        margin-top: 5px;
+    }
+    .xs-t10 {
+        margin-top: 10px;
+    }
+
+}
+
+@media  screen and (max-width: 1300px) {
+.fastbet.bet_now.pc .betnow .caibox-content {padding: 50px 0;padding-top: 120px;}
+.fastbet.bet_now.pc .betnow .caiboxs{ overflow: auto; }
+            }
+

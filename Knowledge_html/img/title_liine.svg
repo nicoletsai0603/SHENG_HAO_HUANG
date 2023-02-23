@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="7" viewBox="0 0 160 7">
+  <g id="title_liine" transform="translate(0 -55)">
+    <rect id="hr-02" width="40" height="7" transform="translate(0 55)" fill="#0c98d9"/>
+    <rect id="hr-02-2" data-name="hr-02" width="40" height="7" transform="translate(80 55)" fill="#c51b2f"/>
+    <rect id="hr-02-3" data-name="hr-02" width="40" height="7" transform="translate(40 55)" fill="#fcc30d"/>
+    <rect id="hr-02-4" data-name="hr-02" width="40" height="7" transform="translate(120 55)" fill="#60ba47"/>
+  </g>
+</svg>

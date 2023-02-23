@@ -1,0 +1,886 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex
+}
+
+.flex .space_between {
+    align-content: space-between
+}
+
+.header {
+    padding: 12px 0;
+    border-bottom: #ccc 1px solid;
+}
+
+.container {
+    max-width: 1400px;
+    width: 1400px;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+}
+
+.header .row>.fr {
+    padding-top: 0
+}
+
+
+.login {
+    width: 133px
+}
+
+.btn-register {
+    height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    border: #46a637 1px solid;
+    color: #46a637;
+    background: transparent;
+    font-size: 13px;
+}
+
+.btn-register:hover {
+    background: #46a637;
+    color: #fff;
+}
+
+
+
+.btn-playInfo:hover .icon {
+    background: url(../images/icon/sezi.png) center no-repeat;
+    background-size: contain
+}
+
+.memebr_ico {
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+    line-height: 31px
+}
+
+.memebr_ico i.per {
+    display: inline-block;
+    margin-right: 10px;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: #fff url(../images/icon/peo.jpg?=v0.0.1) center no-repeat;
+    background-size: 17px 18px
+}
+
+.space-between {
+    justify-content: space-between
+}
+
+.player_login_flex {
+    overflow: hidden;
+    max-height: 31px
+}
+
+
+
+.logo {
+    height: 64px
+}
+
+.logo-few {
+    margin: 5px 0;
+}
+
+.nav-bar {
+    height: auto;
+    min-height: 43px
+}
+
+.nav-bar .nav a {
+
+    color: #666;
+}
+
+.nav-bar .nav a.all_color {
+    padding-right: 26px;
+}
+
+.ai-center {
+    align-items: center
+}
+
+.nav-bar>.fa-th-large {
+    font-size: 15px
+}
+
+.fa-th-large {
+    position: relative
+}
+
+.fa-th-large:before {
+    position: absolute;
+    top: -5px;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 11px
+}
+
+
+
+.section-box1-content .left {
+    position: relative;
+    padding-bottom: 66.5%;
+    margin-right: -10px;
+}
+
+iframe.public {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:364px;border: #54b9cd 1px solid; 
+}
+
+.header .a-links {
+    padding-top: 0
+}
+
+.ai-center {
+    justify-content: flex-start;
+}
+
+.banner1-bg {
+    background: #5dbed1
+}
+
+.banner2-bg {
+    background: #ffb53a
+}
+
+.banner3-bg {
+    background: #ef2f46
+}
+
+.banner4-bg {
+    background: #4a0f01
+}
+
+.banner5-bg {
+    background: #e93b56
+}
+
+.banner6-bg {
+    background: #e9bc95
+}
+
+.banner7-bg {
+    background: #ffccd5
+}
+
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px
+}
+
+.section-box1-slide {
+    position: relative;
+}
+
+.banner-wrap {
+    position: relative;
+    margin: auto;
+    width: 1400px;
+}
+
+.fastbet.bet_now {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    width: 28%;
+    height: 465px
+}
+
+.footer {
+    margin-top: 20px;
+    background: #e4e4e4
+}
+
+.box-title {
+    height: 51px;
+    border-bottom: 1px solid #fff;
+    line-height: 51px
+}
+
+.copyright {
+    background: #4d4d4d;
+    padding: 5px 0;
+}
+
+.app-download {
+    position: relative;
+    display: flex;
+    width: 260px;
+    background: #4d4d4d;
+    flex-direction: column
+}
+
+.box-title {
+    display: flex;
+    height: auto;
+    flex-direction: column
+}
+
+.box-title .fr {
+    padding: 0
+}
+
+.box-title .tab {
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-content: center
+}
+
+.box-title .tab a {
+    padding: 0;
+    width: 50%;
+    color: #fff;
+    font-size: 18px
+}
+
+.box-title .tab a.on,
+.box-title .tab a:hover {
+    color: #fff
+}
+
+.app-bottom {
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+    width: 44px;
+    height: 42px;
+    background: url(../images/app-bottom.jpg) 0 0 no-repeat
+}
+
+.w752 {
+}
+
+.section-box1 {
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+.foot-links-box {
+    margin: 8px auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*翻牌效果*/
+
+a.lottery {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lottery-img {
+    width: 100px;
+    height: 100px;
+}
+
+.flip_wrap {
+
+    margin: 5px auto;
+    perspective: 800px;
+    /*perspective屬性定義3D元素距視圖的距離,以像素計。該屬性允許您改變 3D 元素查看 3D 元素的視圖。*/
+}
+
+.flip {
+    width: 100px;
+    height: 100px;
+    backface-visibility: hidden;
+    /*背對屏幕時隱藏*/
+    transition: all 0.3s ease;
+    /*為翻牌添加過渡效果*/
+    transform-style: preserve-3d;
+    /*子元素將保留其 3D 位置。*/
+}
+
+.side {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*讓背面和正面重疊*/
+    left: 50%;
+    margin-left: -50px;
+}
+
+.front {
+    z-index: 2;
+    /*讓正面朝上*/
+}
+
+.back {
+    transform: rotateY(180deg)
+}
+
+.flip_wrap:hover .flip {
+    transform: rotateY(180deg)
+}
+
+.textAlign {
+    text-align: center
+}
+
+.flip .side img {
+    width: 100%;
+    border-radius: 5px
+}
+
+.ma-t-30 {
+    margin-top: 30px;
+}
+
+a.lottery span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+a.lottery:hover>span {
+    color: #fff;
+}
+
+a.lottery span.Immediately_f69e6c {
+
+    color: #f69e6c;
+    border: #f69e6c 2px solid;
+}
+
+a.lottery:hover .Immediately_f69e6c {
+    color: #fff;
+    background: #f69e6c;
+}
+
+a.lottery span.Immediately_49b985 {
+    color: #49b985;
+    border: #49b985 2px solid;
+}
+
+a.lottery:hover .Immediately_49b985 {
+    color: #fff;
+    background: #49b985;
+}
+
+a.lottery span.Immediately_purple {
+    color: #a78ddb;
+    border: #a78ddb 2px solid;
+}
+
+a.lottery:hover .Immediately_purple {
+    color: #fff;
+    background: #a78ddb;
+}
+
+
+a.lottery span.Immediately_pink {
+    color: #ff8faf;
+    border: #ff8faf 2px solid;
+}
+
+a.lottery:hover .Immediately_pink {
+    color: #fff;
+    background: #ff8faf;
+}
+
+a.lottery span.Immediately_yellow {
+    color: #ffbb12;
+    border: #ffbb12 2px solid;
+}
+
+a.lottery:hover .Immediately_yellow {
+    color: #fff;
+    background: #ffbb12;
+}
+
+a.lottery span.Immediately_blue {
+    color: #17b4ea;
+    border: #17b4ea 2px solid;
+}
+
+a.lottery:hover .Immediately_blue {
+    color: #fff;
+    background: #17b4ea;
+}
+
+a.lottery span.Immediately_orange {
+    color: #ff9700;
+    border: #ff9700 2px solid;
+}
+
+a.lottery:hover .Immediately_orange {
+    color: #fff;
+    background: #ff9700;
+}
+
+.hot {
+    width: 100%;
+    padding: 0 3%;
+}
+
+.all-lottery {
+    width: 100%;
+    display: flex; justify-content: space-between;align-items: center; position: relative;
+}
+
+.all-lottery h2 {
+    font-size: 25px;
+    background: url(../images/lottery.png) center no-repeat;
+    width: 79px;
+    height: 165px;
+    line-height: 25px;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    padding:20px 0 0 26px;
+}
+
+.all-lottery .swiper-button-prev{  left: 100px }
+
+.swiper-container2 {
+     width: calc(100% - 188px);
+    position: relative;
+    overflow: hidden;
+    padding-top:30px; 
+    margin: auto;
+    } 
+.swiper-wrapper2{ width:calc(100% - 188px);   height: 100px; }
+    .swiper-slide2 {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+    
+      justify-content: center;
+    
+      align-items: center;
+    }
+
+.swiper-slide2.hot .flip{    height: 125px;
+    margin-top: -25px;}
+
+.all-lottery-tab {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.all-lottery-tab li {
+    width: 15%;
+    margin: 0 15px;
+}
+
+.all-lottery-tab li a {
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 30px;
+    display: inline-flex;
+    justify-content: center;
+    border: #f25c27 2px solid;
+    color: #f25c27
+}
+
+.all-lottery-tab li a.on {
+    background: #f25c27;
+    color: #fff
+}
+
+.tab-pane {
+    width: 100%;
+    text-align: center;
+}
+
+.tab-pane a {
+    margin: 15px;
+}
+
+.nav-bar .nav a.mo-all {
+    display: none;
+}
+
+.bet_now.mobile {
+    display: none; border: #54b9cd 1px solid
+}
+
+.pop-lottery-box a.lottery {
+    padding: 0;
+    width: 80px;
+}
+
+.pop-lottery-box .flip {
+    width: 80px;
+    height: 80px;
+}
+
+.pop-lottery-box .flip .side {
+
+    margin-left: -40px;
+}
+
+.pop-lottery-box .cai-list a {
+    display: block;
+}
+
+.fix-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background: #fff
+}
+
+.whit-alpha {
+    background: rgba(250, 250, 250, 0.95);
+}
+
+.logo {
+    background-size: contain;
+    background-position: left center
+}
+
+.small-height {
+    min-height: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.nav-bar:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    background: url(../images/shadow.png) no-repeat 0 0;
+    width: 100%;
+    height: 13px;
+    background-size: 100%;
+}
+
+.header.pa10 {
+    padding: 5px 0;
+}
+
+.banner-ma-151 {
+    margin-top: 141px
+}
+
+.banner-ma-151.hei {
+    margin-top: 97px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.index_flex {
+    margin: 10px 0;
+    margin-top: 50px;
+    height: 364px;
+}
+
+.bg-gray {
+    width: 100%;
+    border-bottom: #ccc 1px solid;
+}
+
+.help-page {
+    padding-top: 45px;
+}
+
+.lottery-list {
+    margin: 30px 0;
+}
+
+.title-ma-35 {
+    margin: 55px 0;
+    margin-top: 171px;
+}
+
+.ma-155 {
+    margin-top: 155px;
+}
+
+.fas.fa-home {
+    color: #E78100;
+}
+
+.article-box h3 .l {
+    color: #ed5f31 !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background: #fff;
+    display: inline-block;
+}
+
+.article-box h3 .l:after {
+    border-bottom: #f25c27 1px solid;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.article-box ol li .l {
+    color: #ed5f31 !important;
+    font-weight: bold;
+    font-size: 18px;
+    background: #fff;
+    display: inline-block;
+}
+
+.article-box ol {
+    margin-bottom: 3em;
+}
+
+.article-box {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0;
+    padding-left: 45px;
+    font-weight: bold;
+}
+
+.vip-banner {
+    width: 100%;
+    background: #6c1700;
+    display: flex;
+    justify-content: center;
+}
+
+.vip-title {
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.left-title h3 {
+    background: url(../images/titlebg.jpg) 0 0 no-repeat;
+    font-size: 16px;
+    height: 35px;
+    line-height: 20px;
+    background-size: contain;
+}
+
+.left-nav h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.inside-banner-bg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inside-banner-bg img {
+    height: 250px
+}
+
+.banner1 {
+    background: #ef2f46;
+}
+
+.banner2 {
+    background: #eabd97;
+}
+
+.banner3 {
+    background: #ffb53a;
+}
+
+.banner4 {
+    background: #501100;
+}
+
+.banner5 {
+    background: #e93b56;
+}
+
+.banner6 {
+    background: #ffccd5;
+}
+
+.table-default .l {
+    color: #DF4333 !important;
+    font-weight: bold;
+}
+
+.title h6 .l {
+    color: #DF4333 !important;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt47 {
+    width: 49%
+}
+
+.pa-5 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.flex_end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot-links {
+    display: none;
+}
+
+.foot-safe .container .row {
+    display: flex;
+    width: 100%;
+}
+
+.mobile.app-download {
+    display: none;
+}
+
+#_player_login_area {
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.logged-in.isweb {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logged-in.isweb .fa {
+    font: normal normal normal 50px/1 FontAwesome;
+    font-size: 20px;
+
+    color: #ccc;
+    background: #Fff;
+    border-radius: 50px;
+    padding: 5px 8px;
+}
+
+.fr.fr2.flex.space-between {
+    width: 100%;
+}
+
+.top-blue {
+    background: #53b8ca;
+    width: 100%;
+    height: 7PX
+}
+
+
+
+/*開獎公告*/
+
+.notice {
+
+    height: 42px;
+    /*固定公告栏显示区域的高度*/
+    padding: 0 30px;
+
+    overflow: hidden;
+    color: #666;
+}
+
+.notice ul li {
+    list-style: none;
+    line-height: 42px;
+    /*以下为了单行显示，超出隐藏*/
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.loginbtn.mobile{ display: none; }
+/*中奖动态*/
+.move.hot {
+    width: calc(100% - 260px - 37%);
+    margin:0 10px;
+    padding: 10px;
+    background: #abf1fe;
+    position: relative;
+}
+.move.hot i{ font-size: 23px; font-family: Arial; font-style: italic; display: inline-block; margin: 0 3px; }
+.whitline{ border: #fff 1px solid; width: 100%; height: 100%;  }
+.move.hot h2 {
+    font-size: 25px;
+    background: url(../images/lottery.png) center no-repeat;
+    width: 79px;
+    height: 165px;
+    line-height: 25px;
+    color: #fff;
+    overflow: hidden;
+    position: absolute;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    padding:20px 0 0 26px;
+    left:20px;
+    top:-5px;
+
+}
+
+.move-bottom {
+    position: absolute;
+    right: -2px;
+    bottom: 0;
+    width: 44px;
+    height: 42px;
+    background: url(../images/move-bottom.jpg) 0 0 no-repeat
+}
+
+.move.hot .whit {
+    background: #fff;
+        border-radius: 20px; color: #1890c0; padding: 3px 10px; margin-right:3px;
+}
+
+.move-list{   margin: 32px 0 0 97px;
+    height: 270px;
+    overflow: auto;
+    width: calc(100% - 123px);}
+.move-list li{ 
+    padding: 6px 0; width: 96%;
+    border-bottom: #65c2d4 1px solid;}
+.cc54b9{  background:#54b9cc; border-radius: 20px; color: #fff; padding: 3px 10px; margin: 0 3px; }

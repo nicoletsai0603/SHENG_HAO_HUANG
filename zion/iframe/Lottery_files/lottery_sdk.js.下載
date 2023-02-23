@@ -1,0 +1,73 @@
+(function () {
+  const sdk = window.SDK || {}
+  // var key = '?redirect=url'
+  const search = document.location.search
+
+  sdk.callTop_rd = function () {
+    let origin = document.location.origin
+    origin += '/redirect'
+    window.top.postMessage({
+      action: 'parent_redirect',
+      info: {
+        msg: origin + search
+      }
+    },
+      '*')
+  }
+  sdk.callParent = function () {
+    window.top.postMessage({
+      action: 'lchild_cburl',
+      info: {
+        msg: document.location.origin
+      }
+    }, '*')
+  }
+  sdk.homeCall = function () {
+    window.top.postMessage({
+      action: 'bet_home'
+    }, '*')
+  }
+  sdk.loadEnd = function () {
+    window.top.postMessage({
+      action: 'loadend'
+    }, '*')
+  }
+  sdk.ckIframe = function () {
+    return window.frames.length != parent.frames.length
+  }
+  sdk.ckBrowserSafari = function () {
+    const userAgent = navigator.userAgent.toLowerCase()
+    // return userAgent.indexOf("safari") != -1 && userAgent.indexOf("chrome") == -1
+    return userAgent.indexOf('chrome') == -1
+  }
+  sdk.isTriger = function () {
+    return search.indexOf('?token=') > -1 && document.cookie.indexOf('curUser') === -1
+    // return false
+  }
+  function httpGetAsync(theUrl, callback) {
+    const xmlHttp = new XMLHttpRequest()
+    xmlHttp.onreadystatechange = function () {
+      if (xmlHttp.readyState == 4 && xmlHttp.status == 200) { callback(xmlHttp.responseText) }
+    }
+    xmlHttp.open('GET', theUrl, true) // true for asynchronous
+    xmlHttp.send(null)
+  }
+  sdk.loadCss = function () {
+    // var theUrl = document.location.origin
+    // theUrl += '/config.json'
+    // httpGetAsync(theUrl, function(value){
+    //   const config = JSON.parse(value)
+    //   if (config.webSiteCss === 'PINK') {
+    //     // $('head').append('<link href=/res/css/lequ.css rel="stylesheet" type="text/css">')
+    //   } else if (config.webSiteCss === 'GREEN') {
+    //     $('head').append('<link href=/res/css/green.css rel="stylesheet" type="text/css">')
+    //   } else if (config.webSiteCss === 'BLUE') {
+    //     $('head').append('<link href=/res/css/blue.css rel="stylesheet" type="text/css">')
+    //   }else {
+    //     $('head').append('<link href=/res/css/lequ.css rel="stylesheet" type="text/css">')
+    //   }
+    // })
+  }
+  // 写入window
+  window.SDK = sdk
+}())

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="158" viewBox="0 0 335 158">
+  <g id="NEWS" transform="translate(-1295 -719)">
+    <rect id="news-2" data-name="news" width="335" height="158" transform="translate(1295 719)" fill="#0c98d9"/>
+    <g id="目標" transform="translate(1114.667 195.493)">
+      <g id="组_34" data-name="组 34" transform="translate(0 7)">
+        <text id="_996" data-name="996" transform="translate(354.333 608.507)" fill="#fff" font-size="65" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">996</tspan></text>
+        <text id="新聞" transform="translate(388.333 636.507)" fill="#fff" font-size="20" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei"><tspan x="0" y="0">新聞</tspan></text>
+      </g>
+      <g id="椭圆_5" data-name="椭圆 5" transform="translate(233.333 551.507)" fill="none" stroke="#fff" stroke-width="1">
+        <circle cx="51" cy="51" r="51" stroke="none"/>
+        <circle cx="51" cy="51" r="50.5" fill="none"/>
+      </g>
+      <g id="news-paper" transform="translate(258.333 577.507)">
+        <g id="组_36" data-name="组 36" transform="translate(0 0)">
+          <g id="组_35" data-name="组 35">
+            <rect id="矩形_11" data-name="矩形 11" width="11.9" height="14.45" transform="translate(14.45 5.95)" fill="#fff"/>
+            <rect id="矩形_12" data-name="矩形 12" width="11.9" height="14.45" transform="translate(33.15 5.95)" fill="#fff"/>
+            <path id="路径_205" data-name="路径 205" d="M48.45,0H11.05A2.553,2.553,0,0,0,8.5,2.55V27.2H.85a.85.85,0,0,0-.85.85V45.9A5.105,5.105,0,0,0,5.1,51H45.9A5.105,5.105,0,0,0,51,45.9V2.55A2.553,2.553,0,0,0,48.45,0ZM8.5,45.9a3.4,3.4,0,0,1-6.8,0v-17H8.5v17Zm10.2,1.7H13.6a.85.85,0,1,1,0-1.7h5.1a.85.85,0,1,1,0,1.7Zm8.5-4.25H13.6a.85.85,0,1,1,0-1.7H27.2a.85.85,0,0,1,0,1.7Zm0-4.25H13.6a.85.85,0,1,1,0-1.7H27.2a.85.85,0,0,1,0,1.7Zm0-4.25H13.6a.85.85,0,1,1,0-1.7H27.2a.85.85,0,0,1,0,1.7Zm0-4.25H13.6a.85.85,0,1,1,0-1.7H27.2a.85.85,0,0,1,0,1.7Zm0-4.25H13.6a.85.85,0,1,1,0-1.7H27.2a.85.85,0,0,1,0,1.7Zm.85-5.1a.85.85,0,0,1-.85.85H13.6a.85.85,0,0,1-.85-.85V5.1a.85.85,0,0,1,.85-.85H27.2a.85.85,0,0,1,.85.85V21.25ZM40.8,47.6H32.3a.85.85,0,1,1,0-1.7h8.5a.85.85,0,0,1,0,1.7Zm5.1-4.25H32.3a.85.85,0,1,1,0-1.7H45.9a.85.85,0,1,1,0,1.7Zm0-4.25H32.3a.85.85,0,1,1,0-1.7H45.9a.85.85,0,1,1,0,1.7Zm0-4.25H32.3a.85.85,0,1,1,0-1.7H45.9a.85.85,0,1,1,0,1.7Zm0-4.25H32.3a.85.85,0,1,1,0-1.7H45.9a.85.85,0,1,1,0,1.7Zm0-4.25H32.3a.85.85,0,0,1,0-1.7H45.9a.85.85,0,1,1,0,1.7Zm.85-5.1a.85.85,0,0,1-.85.85H32.3a.85.85,0,0,1-.85-.85V5.1a.85.85,0,0,1,.85-.85H45.9a.85.85,0,0,1,.85.85Z" transform="translate(0 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,113 @@
+.caibox-content .beishu,
+.caibox-content .action {
+    width: 50% !important;
+    margin-top: 10px;
+}
+
+.box-title li div {
+    background: #e46640 color: #fff;
+}
+
+/*nicole_20180907*/
+a:hover{ transition:all 0.2s; }
+.betnow .fb-mbody{    font-family: Microsoft Yahei, "sans-serif", arial;}
+.betnow .caibox-content .beishu, .caibox-content .action {
+    width: 100% !important;
+}
+ #app.betnow{ height: 100%; background: #2b2b2b; color: #fff;}
+ #app.betnow>div, #app.betnow>div>div{ height: 100%;}
+.betnow .box-title{min-height:122px; border-bottom: 0; background:#ed5f31;border-bottom:#ee9d84 1px solid;}
+.betnow .xs-fflex{ display: inline-block; }
+
+.betnow  .box-title li{ min-height:61px; display: inline-block;  float: left;}
+.betnow .box-title li div{ height: 61px;     padding: 12px 0; color: #fff ; font-size: 16px; font-weight: bold;}
+.betnow .box-title li div.on, .box-title li div:hover{ background-image:none; background: #a34022; border-bottom:#fff 5px solid;   }
+.betnow .box-title li:nth-child(1),.box-title li:nth-child(2){ border-right:#ee9d84 1px solid;  }
+.betnow .box-title li:nth-child(1),.box-title li:nth-child(2),.box-title li:nth-child(3){ width:calc(100% / 3 ); border-bottom:#ee9d84 1px solid;   }
+.betnow .box-title li:nth-child(4),.box-title li:nth-child(5){ width: 50%; }
+.betnow .box-title li:nth-child(4){ border-right:#ee9d84 1px solid;  }
+.betnow .caiboxs{    align-items: center;
+    justify-content: center;
+    height: 340px;
+    overflow: auto;
+    width: 100%;
+    padding-top:16px ; }
+
+.betnow .caibox-content{    font-size: 16px;
+    padding: 0;
+    width: 80%;
+    margin: auto; }
+.betnow .caibox-content .hd{ position: relative; line-height: 24px; display:flex; flex-direction:column-reverse; padding: 0}
+.betnow .a-nounderline{ color: #fff; cursor: pointer; }
+.betnow .fb-countdown {
+    display: block;
+    text-align: right;
+    margin: 5px 0;
+}
+.betnow .l{ color: #ed5f31; font-size: 20px; margin: 0 3px; font-weight: bold; padding: 3px 0; }
+.betnow .hd.fflex.sm-fflex.fb-title>span{ width: 100%;  }
+.betnow .hd.fflex.sm-fflex.fb-title>div{     width: 100%;
+    text-align: right;
+    padding-bottom:  10px;
+    border-bottom: #666 1px solid;
+    margin-bottom: 15px; }
+.betnow .caibox-content>.hr{ display: none; }
+.betnow .btn-red{ width: 100%; padding: 5px 0; border: #fff 2px solid; background-image: none; background: transparent; height:auto;  }
+.betnow .btn-red:hover{ background:#e85343; border-color:#e85343   }
+.betnow .caibox-content .bd{ min-height: auto; margin-bottom: 10px;  }
+.betnow .caibox-content .bd div.balls{ display: inline-block; }
+.betnow .numbox.fl>div{ display: flex; }
+.betnow .caibox-content .bd div.balls span{ width: 30px; height: 30px; line-height: 30px; }
+.betnow .caibox-content .numbox .fb-pmbtn{display: flex;
+    align-items: center;
+    justify-content: center; cursor: pointer; height: auto}
+.betnow .a-nounderline.cur.fbtxt-h>svg:not(:root).svg-inline--fa{ display: none; }
+.betnow .a-nounderline.cur.fbtxt-h{ cursor: pointer;  margin-bottom: 10px; text-align: right;}
+.betnow .a-nounderline.cur.fbtxt-h>span{ position: relative; margin-left:30px;   }
+.betnow .a-nounderline.cur.fbtxt-h>span:before{ content: ""; position: absolute; left:-30px  ;
+background:url(relax.jpg) 0 0 no-repeat;
+    width: 30px;
+    height: 30px; background-size:100%;   }
+@media  screen and (max-width: 1300px) {
+.betnow .caibox-content.pa-50 {padding: 50px 0;padding-top: 120px;}
+.betnow .caiboxs.overflow-auto{ overflow: auto; }
+            }
+@media  screen and (min-width: 1300px) {
+.betnow .caibox-content {padding: 0;}
+.betnow .caiboxs{ overflow: hidden; }
+            }
+
+/*lottory*/
+.announcement .w340 { display: flex;  }           
+.announcement .w340 {  height: 100%;}
+.announcement .box-title { width: 40%;background:#ed5f31;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; font-size: 16px;    position: fixed;
+    top: 0; }
+.announcement .box-title .fr{ width: 100%; padding:3px 0 ;}
+.announcement .box-title .tab .tlink{display: block; width: 90%; padding:8px 0 ;text-align: center; margin-left: 5% !important;color: #ffffff; }
+.announcement .box-title h3{ 
+    font-size: 25px; font-weight: bold; background-image:none; margin-bottom: 10px; position: relative; }
+.announcement .box-title h3:before{content: "";
+    position: absolute;
+    top: -60px;
+    background: url(icon.png) 0 0 no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+    left: calc(50% - 25px); }
+.announcement .box-title .tab .tlink:hover, .announcement .box-title .tab .tlink.on {
+    color: #df4333; background: #fff;
+}
+.announcement .box-title .tab{ padding: 0 }
+.announcement .ball-defult i{ background:#e85343; }
+
+
+.announcement .open-boxs {
+    margin-bottom: 10px; overflow: auto; width: 60%; font-size: 15px;font-style: normal;   
+    right: 0;
+    overflow: auto; margin-left: 40%}
+
