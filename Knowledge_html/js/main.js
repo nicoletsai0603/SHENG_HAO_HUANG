@@ -171,5 +171,8 @@ $(window).resize(function() {
 $(function() {
     Smenu();
     tabSet();
-    w3IncludeHTML();
+
+});
+$(document).ready(function() {
+    includeHTML();
 });
