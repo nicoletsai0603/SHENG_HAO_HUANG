@@ -1,0 +1,1391 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: Heiti TC, Microsoft JhengHei, sans-serif;
+    color: #424242;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #060606;
+    font-weight: 700;
+    margin: 0;
+    font-family: Heiti TC, Microsoft JhengHei, sans-serif;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 44px;
+    margin: 0 0 44px 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin: 0 0 32px 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+/*use in section headings*/
+
+h3.heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+h3.heading:after {
+    position: relative;
+    left: 18px;
+    content: "";
+    display: inline-block;
+    width: 200%;
+    vertical-align: middle;
+    height: .50em;
+    margin: 0 -200% 0 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 18px;
+    margin: 0 0 14px 0;
+}
+
+h6 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 18px;
+    margin: 0 0 14px 0;
+}
+
+/*parahraphs*/
+
+p {
+    color: #555;
+    line-height: 24px;
+    margin: 0 0 20px;
+    font-family: Heiti TC, Microsoft JhengHei, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.center-line {
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    border-top: 1px solid #bbb;
+    margin: 10px 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.center-heading .left-move-150 {
+    margin-right: 150px;
+}
+
+.center-heading .right-move-150 {
+    margin-left: 150px;
+}
+
+.divide100 {
+    width: 100%;
+    height: 100px;
+}
+
+.divide150 {
+    width: 100%;
+    height: 150px;
+}
+
+.divide200 {
+    width: 100%;
+    height: 200px;
+}
+
+.vertical-align {
+    height: 150px;
+}
+
+.vertical-align div {
+    position: relative;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-padding20 {
+    padding: 20px;
+}
+
+.daan-bg {
+    min-height: 500px;
+    background: url(../img/daan-park.jpg) no-repeat center center #fff;
+    background-size: cover;
+    position: relative;
+}
+
+.box-content {
+    position: absolute;
+    width: 450px;
+    height: 240px;
+    bottom: 15%;
+    right: 15%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img.vertical-logo {
+    padding: 25px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.left-fixed {
+    background: url(../img/daan-left-sidebar.jpg) no-repeat center center #444;
+    background-size: cover;
+    position: fixed;
+    z-index: 10000;
+    top:0;
+    height: 100vh;
+    overflow: auto;
+}
+
+.right-scroll {
+    position: relative;
+    background: #555555;
+}
+
+.right-scroll h3 {
+    padding: 20px;
+    color: #b3b3b3;
+    letter-spacing: 5px;
+}
+
+.right-scroll h3.no-padding {
+    padding: 0px;
+}
+
+.sidebar-box {
+    display: block;
+    width: 100%;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.cat-list li {
+    padding: 15px 20px;
+    border-bottom: none;
+}
+
+.cat-list li.tell-padding {
+    padding: 15px 20px 0px;
+}
+
+.cat-list li.address-padding {
+    padding: 5px 20px 15px;
+}
+
+.cat-list li a {
+    color: #eaeaea;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.cat-list li a:hover, .cat-list li a:active, .cat-list li a:focus {
+    color: #55c3f1;
+}
+
+.cat-list a.reserve {
+    color: #e4ccb0;
+}
+
+.cat-list a.text18 {
+    font-size: 18px;
+}
+
+.cat-list a.text16 {
+    font-size: 14px;
+}
+
+.margin-remove {
+    margin: 0;
+}
+
+.environment-01 {
+    background: url('../img/daan-envir-01.jpg') no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.environment-02 {
+    background: url('../img/daan-envir-02.jpg') no-repeat center center #e7e7e7;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.environment-03 {
+    background: url('../img/daan-envir-03.jpg') no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.environment-04 {
+    background: url('../img/daan-envir-04.jpg') no-repeat center bottom #e7e7e7;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.environment-text {
+    display: block;
+    min-height: 200px;
+    background: #fff;
+    position: relative;
+    top: 350px;
+}
+
+.environment-text-gray {
+    display: block;
+    min-height: 200px;
+    background: #e7e7e7;
+    position: relative;
+    top: 350px;
+}
+
+.environment-text h4, .environment-text-gray h4 {
+    color: #555;
+    line-height: 24px;
+    margin: 0px;
+    font-family: Heiti TC, Microsoft JhengHei, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 20px 0px;
+}
+
+.environment-text p, .environment-text-gray p {
+    color: #555;
+    line-height: 24px;
+    margin: 0px;
+    font-family: Heiti TC, Microsoft JhengHei, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.facility-01 {
+    background: url('../img/daan-facility01.jpg') no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.facility-02 {
+    background: url('../img/daan-facility02.jpg') no-repeat center center #e7e7e7;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.facility-03 {
+    background: url('../img/daan-facility03.jpg') no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.facility-04 {
+    background: url('../img/daan-facility04.jpg') no-repeat center bottom #e7e7e7;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.daan-kuo {
+    background: url('../img/daan-kuo.jpg') no-repeat center bottom #e7e7e7;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.building-area {
+    position: relative;
+}
+
+.kuo-info {
+    padding: 35px;
+}
+
+.kuo-info h4 {
+    color: #b0d8f3;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.kuo-info p {
+    color: #b9b5aa;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.kuo-info h5 {
+    text-align: right;
+    color: #ded5ae;
+    font-size: 15px;
+}
+
+.park-bg {
+    background: url('../img/daanpark-bg.jpg') no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+h4.park-title {
+    color: #c3c3c3;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.building-bg {
+    background: url('../img/daan-building01.jpg') no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.building-info {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 450px;
+    z-index: 500;
+}
+
+.building-info h4 {
+    color: #71a6ca;
+    line-height: 32px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.building-info p {
+    color: #8a8a8a;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.indoor-info {
+    position: relative;
+    padding: 10px 30px;
+}
+
+.indoor-info h4 {
+    color: #b0d8f3;
+    line-height: 32px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.indoor-info p {
+    color: #b9b5aa;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+img.float-right {
+    float: right;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width75 {
+    width: 75%;
+}
+
+.inter-info {
+    position: absolute;
+    width: 350px;
+    height: 380px;
+    background: #3c3b39;
+    top: 12%;
+    left: -15%;
+    z-index: 500;
+    padding: 35px;
+}
+
+.inter-info h4 {
+    color: #b0d8f3;
+    line-height: 28px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.inter-info p {
+    color: #a2a2a2;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.content-info {
+    position: relative;
+    width: 80%;
+    padding: 50px 35px;
+}
+
+.content-info h4 {
+    color: #eccea5;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.content-info p {
+    color: #cacaca;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.content-info-2 {
+    position: relative;
+    width: 80%;
+    padding: 35px;
+}
+
+.content-info-3 {
+    position: relative;
+    width: 100%;
+    padding: 35px;
+}
+
+.content-info-2 h4, .content-info-3 h4 {
+    color: #eccea5;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.content-info-2 h4 span, .content-info-3 h4 span {
+    color: #dadada;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.content-info-2 p, .content-info-3 p {
+    color: #cecece;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.margin80 {
+    margin-bottom: 80px;
+}
+
+.navbar-default {
+    background-color: #545454;
+    border-color: #6f6f6f;
+}
+
+.navbar-collapse {
+    border-top: 1px solid #545454;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #545454;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #e2e2e2;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    padding: 10px;
+}
+
+.navbar-brand img {
+    width: 105px;
+    height: auto;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+.panorama-range {
+    position: relative;
+}
+
+.change-paver-block-2 {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    right: 10px;
+    bottom: -20px;
+    padding: 10px 10px;
+    font-size: 17px;
+    width: 500px;
+}
+
+.change-paver-block-2 h4 {
+    color: #cacaca;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.change-paver-block-2 p, .mobile-block-view p {
+    color: #cacaca;
+    padding: 10px;
+    font-size: 14px;
+}
+
+h3.designer {
+    font-size: 20px;
+    text-align: right;
+}
+
+.panorama {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+}
+
+.panorama img {
+    width: 100%;
+}
+
+.paver--ready .paver__meta span.paver__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-bottom: .25em;
+    letter-spacing: 4px;
+}
+
+.paver--ready .paver__meta span.paver__title:after {
+    display: none;
+}
+
+.paver--ready .paver__meta span {
+    font-size: 24px;
+}
+
+.change-paver-block {
+    position: absolute;
+    z-index: 100;
+    color: #d8d8d8;
+    right: 30px;
+    top: 60px;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.change-paver {
+    cursor: pointer;
+}
+
+.change-paver.active {
+    cursor: inherit;
+}
+
+.change-paver:hover {
+    opacity: 0.7;
+}
+
+.change-paver.active:hover {
+    opacity: inherit;
+}
+
+.navbar-default {
+    position: fixed;
+    top: 0;
+}
+
+.div-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transition: 1s;
+    transform: translate(-50%, -50%);
+}
+
+.div-center img:nth-child(2), .div-center img:nth-child(3) {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.left-fixed {
+    z-index: 3;
+    position: fixed;
+    height: 100%;
+}
+
+#videoBackBlock {
+    overflow: hidden;
+    height: 100%;
+}
+
+#videoBackBlock video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#videoBackBlock video:last-child {
+    display: none;
+}
+
+#videoBackPlay {
+    width: 100%;
+    height: 100%;
+}
+
+.videoPlay {
+    width: 100%;
+}
+
+#videoBackPlay .video-block {
+    padding: 0;
+}
+
+.date-container {
+    width: 100%;
+    position: relative;
+}
+
+
+.datepicker {
+    padding: 0;
+}
+
+.date-icon {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    width: 29px; height: 29px;
+    background: url(../img/cal.png) no-repeat;
+    background-size: contain;
+}
+
+.hint-form {
+    color: #db9e9b;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    padding: 5px;
+}
+
+.hint-date {
+    right: 40px;
+}
+
+#sendData i {
+    margin: 0;
+}
+
+#sendData i {
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.building-info-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+.map-area {
+    height: 650px;
+}
+
+#map {
+    height: 100%;
+}
+
+.building-info-block {
+    padding: 8% 0;
+    padding-bottom: 15%;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: inherit;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 6px;
+    background: #ffffffde;
+    cursor: pointer;
+}
+
+.scroll>span {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: #464646;
+    margin-bottom: -2px;
+}
+
+.scroll>.line {
+    margin: 0 auto;
+    width: 2px;
+    height: 50px;
+    top: 30px;
+    position: absolute;
+    background-color: #797979;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-animation: scrollIcon 2s infinite;
+    animation: scrollIcon 2s infinite;
+}
+
+.footer-block {
+    padding: 10px 0;
+    font-weight: 900;
+    color: #fff; text-align: right; padding-right: 2.5%;
+}
+
+.building-info-list a {
+    color: #5f5542;
+}
+
+.mobile-background {
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#mobileScroll1 {
+    background-image: url(http://s3-snailhouse.cdn.hinet.net/snail/builder/daan/images/daan-mobile-slide01-3.jpg);
+}
+
+#mobileScroll2 {
+    background-image: url(http://s3-snailhouse.cdn.hinet.net/snail/builder/daan/images/daan-mobile-slide02-3.jpg);
+}
+
+#mobileScroll3 {
+    background-image: url(http://s3-snailhouse.cdn.hinet.net/snail/builder/daan/images/daan-mobile-slide03-3.jpg);
+}
+
+.gift-bg {
+    background: url(../img/gift-bg.jpg) no-repeat center center #fff;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+}
+
+.gift-bg h2{
+    font-size: 48px;
+    text-align: center;
+    color:#7ab4e9;
+    letter-spacing: 2px;
+    padding: 40px 0 0px;
+}
+
+.gift-bg h5{
+    font-size: 20px;
+    text-align: center;
+    color:#555;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding: 0px 0 20px;
+}
+
+.gift-bg h5.note{
+    font-size: 17px;
+    text-align: center;
+    color:#999;
+    line-height: 20px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+
+
+.speaking-bg {
+    background: url(../img/daan-speaking-bg.jpg) no-repeat left bottom #fff;
+    background-size: inherit;
+    min-height: 600px;
+    position: relative;
+}
+
+.title-img{
+    padding: 30px 0 20px;
+}
+
+.speak-content{
+    background: url(../img/speaking-content-bg.png) no-repeat left top transparent;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
+
+.speak-content h3 {
+    padding: 0px;
+    color: #da816f;
+    letter-spacing: 4px;
+}
+
+.speak-content p{
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 10px;
+    font-family: Heiti TC, Microsoft JhengHei, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.content-padding-30{
+    padding: 30px;
+}
+.content-padding-10{
+    padding: 10px;
+}
+
+.view-iframe {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.close-view {
+    position: absolute;
+    right: 0;
+    font-size: 70px;
+    top: 0;
+    background: initial;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+}
+
+#sendView i{
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.show-view-form {
+    cursor: pointer;
+}
+#sendvalidate {
+    font-family: sans-serif;
+}
+.error-validate {
+    color: #ff0000;
+    padding: 5px;
+}
+span.phone-m {
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.daan-promo-text{
+    position: absolute;
+    z-index: 8;
+    top:-400px;
+    right: 300px;
+    width: 570px;
+}
+
+img.daan-promo-logo{
+    position: absolute;
+    z-index: 8;
+    top: -380px;
+    left: 50px;
+    width: 120px;
+    display: none;
+}
+
+.phone-dial {
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+}
+
+.phone-dial img{
+        width: 170px;
+    }
+
+
+@media (max-width: 1200px) {
+    .box-content {
+        bottom: 5%;
+    }
+    .content-info-2, .content-info-3 {
+        padding: 10px;
+    }
+    img.daan-promo-text{
+        top:-400px;
+        right: 100px;
+        width: 500px;
+    }
+    img.daan-promo-logo{
+        top: -430px;
+        left: 50px;
+        width: 100px;
+    }
+}
+
+@media (max-width:1025px) {
+    html, body {
+        overflow: inherit;
+    }
+    #videoBackPlay {
+        padding: 50px 0 100px;
+        background: #555;
+    }
+    #videoBackPlay h3 {
+        padding: 20px;
+        color: #fafafa;
+    }
+    .speaking-bg {
+        background-size: contain;
+        min-height: 500px;
+    }
+    img.daan-promo-logo{
+        display: none;
+    }
+    img.daan-promo-text {
+        top: 30px;
+        right: 10px;
+        width: 330px;
+    }
+
+    .scroll{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .daan-bg {
+        min-height: 400px;
+    }
+    .kuo-info {
+        left: 0;
+        padding: 0;
+    }
+    .inter-info {
+        left: -31%;
+        padding: 30px 20px;
+        position: absolute;
+        margin-bottom: 30px;
+        top: -100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .center-heading .left-move-150 {
+        margin-right: 0px;
+    }
+    .center-heading .right-move-150 {
+        margin-left: 0px;
+    }
+    .vertical-align {
+        height: auto;
+    }
+    .vertical-align div {
+        position: relative;
+        height: auto;
+        top: 0;
+        transform: inherit;
+    }
+    .inter-info {
+        left: auto;
+        padding: 30px 20px;
+        position: relative;
+        margin-bottom: 30px;
+        top: 0;
+    }
+    .daan-kuo {
+        background: url(../img/daan-kuo.jpg) no-repeat 70% bottom #e7e7e7;
+    }
+    .width80 {
+        width: 100%;
+    }
+    .content-info {
+        position: relative;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .inter-info {
+        left: auto;
+        padding: 30px 20px;
+        position: relative;
+        margin-bottom: 30px;
+        top: 0;
+        width: auto;
+        height: auto;
+    }
+    .change-paver-block-2 {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+    }
+    *[data-paver] {
+        margin-bottom: 1.5rem;
+        position: relative;
+        height: 45vh !important;
+        left: -25%;
+        width: 150%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .gift-bg h2{
+        font-size: 36px;
+    }
+    .gift-bg h5{
+        font-size: 18px;
+        padding: 0 10px; 
+    }
+    span.phone-m{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .daan-bg {
+        min-height: 300px;
+    }
+    .center-heading h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 18px;
+        margin: 0 0 5px 0;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0 20px;
+    }
+    .daan-kuo {
+        background: url(../img/daan-kuo.jpg) no-repeat 70% bottom #e7e7e7;
+        background-size: cover;
+        min-height: 600px;
+    }
+    .kuo-info {
+        position: relative;
+        left: 0;
+        padding: 0 20px;
+    }
+    .content-info-2 {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .content-info-2 h4 span {
+        display: inline-block;
+        padding-left: 0px;
+    }
+    .building-info {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        width: 100%;
+        z-index: 500;
+    }
+    .building-info p {
+        color: #505050;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    h3.designer {
+        font-size: 16px;
+        text-align: left;
+        line-height: 28px;
+    }
+    h4.park-title {
+        color: #c3c3c3;
+        line-height: 28px;
+        letter-spacing: 3px;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .change-paver-block-2 p, .mobile-block-view p {
+        padding: 20px;
+    }
+    .map-area {
+        height: 450px;
+    }
+    .kuo-info h4, .content-info-2 h4, .content-info-3 h4, h4.park-title, .indoor-info h4{
+        font-size: 18px;
+    }
+    .indoor-info {
+        padding: 10px 15px;
+    }
+  
+
+    .gift-bg img{
+        width:90%;
+    }
+    .gift-bg h5.note {
+        font-size: 15px;
+    }
+    #formModal .modal-dialog {
+        display: initial;
+        text-align: left;
+        vertical-align: initial;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    span.phone-m{
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    img.daan-promo-text {
+        width: 300px;
+    }
+}
+
+@keyframes scrollIcon {
+    0% {
+        -webkit-transform: translate(0) scaleY(0);
+        transform: translate(0) scaleY(0);
+    }
+    50% {
+        -webkit-transform: translate(0) scaleY(1);
+        transform: translate(0) scaleY(1);
+    }
+    100% {
+        -webkit-transform: translateY(100%) scaleY(1);
+        transform: translateY(100%) scaleY(1);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    75% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Standard syntax */
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.25;
+    }
+    75% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    .panorama, .change-paver-block {
+        display: none;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    .panorama, .change-paver-block {
+        display: none;
+    }
+}
+
+
+
+
+@supports not (-webkit-overflow-scrolling: touch) {
+    .date-mobile{
+    width:100%;
+    }
+    
+    .date-mobile:not(.has-value):before{
+      color: lightgray;
+      content: attr(placeholder);
+    }
+}

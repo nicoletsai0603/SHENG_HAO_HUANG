@@ -1,0 +1,111 @@
+@media (max-width:1077px) {
+    .world2 {
+        width: 65.5%;
+    }
+    .world1 {
+        width: 64%;
+    }
+}
+@media (max-width:1024px) {
+    .pp-section.pc{ display: none }
+.mm-section.mo{display: block; position: relative;  overflow: auto;  }
+.pp-section{ position: relative; }
+}
+
+
+
+@media (max-width: 991px) {
+    .section2 {
+        width: 100%;  position: relative;
+    }
+    .mm-section{padding-top: 0;}
+ a#scroll1,a#scroll2,a#scroll3,a#scroll4,a#scroll5,a#scroll6,a#scroll7{  position: absolute;top: -70px; }
+
+}
+@media (max-width: 767px) {
+    .color5f5542{ margin: 50px 0; margin-bottom: 90px;}
+}
+@media (min-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    .navbar-collapse {
+        border: none;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #000; font-weight: bold;
+    }
+    /*.pp-section.pp-table {
+        display: none
+    }*/
+}
+
+
+
+@media (max-width:748px) {
+    .section3 {
+        flex-direction: column
+    }
+    .section3 img {
+        width: 100%;
+    }
+    .ACTIVITY4 {
+        width: 90%;
+    }
+    .ACTIVITY4_2 {
+        width: 100%;
+        margin: 25px 0;
+    }
+    .ACTIVITY4_3 {
+        text-align: left;
+    }
+    .ACTIVITY4_7 {
+        width: 90%;  text-align: left;
+    }
+  
+
+    .world1{ position: relative;
+   
+    margin: 25px auto;
+    text-align: left;
+    left: 0;
+}
+.peo1{ align-items: center;}
+    .world_2_b{ margin-top: 0; margin-bottom:50px }
+    .banner8.pc{ display: none; }
+    .banner8.mo{ display: block; }
+
+}
+@media (max-width:694px) {
+    .section50 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+    .section2 img {
+        float: none;
+        width: 100%;
+    }
+  .peo1{ display: block; }
+   .peo2{  display: flex;flex-direction: column-reverse }
+  .world1{ width: 90%; }
+   .world2{   align-items: start;}
+    .ACTIVITY3 {
+        position: relative;
+        margin: 25px 0;
+        width: 100%
+    }
+    .ACTIVITY2 {
+        width: 90%;
+    }
+}
+@media (max-width:402px) {
+   .building-info-list li.locatin2{ padding-bottom: 25px; } 
+}
+@media (max-width:389px) {
+   .building-info-list li.locatin3{ padding-bottom: 25px; } 
+}
+@media (max-width:362px) {
+.building-info-list li.locatin1{ padding-bottom: 25px; }
+}

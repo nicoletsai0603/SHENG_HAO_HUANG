@@ -1,0 +1,129 @@
+﻿#all_menu{
+	width: 190px;
+	height: 208px;
+}
+ul.MenuBarVertical
+{
+	margin: 0;
+	padding: 0;
+	width: 190px;
+	height: 104px;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+ul.MenuBarVertical li
+{
+	margin: 0;
+	padding: 0;
+	width: 180px;
+}
+ul.MenuBarVertical ul
+{
+	margin: -1px 0 0 96%;
+	padding: 0;
+	list-style-type: none;
+	position: absolute;
+	z-index: 9999;
+	width: 200px;
+	left: -1000em;
+	border: 1px solid #CCCCCC;
+}
+ul.MenuBarVertical ul.MenuBarSubmenuVisible
+{
+	left: 0;
+}
+ul.MenuBarVertical ul li
+{
+	width: 200px;
+}
+ul.MenuBarVertical a
+{
+	width:200px;
+	height: 26px;
+	padding: 0;
+	/*background-image:url(../images/smenu_bg03.jpg);
+	background-repeat: repeat-x;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7f7f7f;
+	line-height: 22px;
+	text-indent: 33px;
+	text-decoration: none;
+	display: block;
+}
+ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus
+{
+	/*background-image:url(../images/smenu_bg04.jpg);
+	background-repeat: repeat-x;*/
+	color: #004f7b;
+	text-decoration: underline;
+}
+ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover, ul.MenuBarVertical a.MenuBarSubmenuVisible
+{
+	/*background-image:url(../images/smenu_bg04.jpg);
+	background-repeat: repeat-x;*/
+	color: #004f7b;
+	text-decoration: underline;
+}
+
+ul.MenuBarVertical a.MenuBarItemSubmenu
+{
+	width:180px;
+	height: 26px;
+	padding: 0;
+	/*background-image:url(../images/smenu_bg01.jpg);
+	background-repeat: repeat-x;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7f7f7f;
+	line-height: 22px;
+	text-indent: 33px;
+	text-decoration: none;
+	display: block;
+}
+
+ul.MenuBarVertical a.MenuBarItemSubmenuHover
+{
+	/*background-image:url(../images/smenu_bg02.jpg);
+	background-repeat: repeat-x;*/
+	color: #004f7b;
+	text-decoration: underline;
+}
+
+ul.MenuBarVertical iframe
+{
+	position: absolute;
+	z-index: 9998;
+}
+#MenuBarItemSubmenu2{
+	width:180px;
+	height: 26px;
+}
+#MenuBarItemSubmenu2 a{
+	width:180px;
+	height: 26px;
+	padding: 0;
+	/*background-image:url(../images/smenu_bg01.jpg);
+	background-repeat: repeat-x;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #7f7f7f;
+	line-height: 22px;
+	text-indent: 33px;
+	text-decoration: none;
+	display: block;
+}
+#MenuBarItemSubmenu2 a:hover{
+	/*background-image:url(../images/smenu_bg02.jpg);*/
+	color: #004f7b;
+	text-decoration: underline;
+}
+@media screen, projection
+{
+	ul.MenuBarVertical li.MenuBarItemIE
+	{
+		display: inline;
+		float: left;
+	}
+}
