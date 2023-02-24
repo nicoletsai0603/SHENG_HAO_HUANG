@@ -1,0 +1,83 @@
+//手機選單
+function mobile_menu() {
+    var winWidth = $(window).width();
+
+    //漢堡線
+    $("#mobile_menu_labIcon").click(function () {
+        $(".nav-bar").toggleClass("on");
+        $(".portfolio-filter.isotope-filter.pull-center").toggleClass("on");
+        $("#greybg").toggle();
+        $('.hamburger').toggleClass('is-active');
+        $('body').toggleClass('mask');
+
+    })
+
+    $("#greybg").click(function () {
+
+        $(this).toggle();
+        $(".portfolio-filter.isotope-filter.pull-center").removeClass("on");
+        $('.hamburger').removeClass('is-active');
+        $('body').removeClass('mask');
+    })
+
+}
+
+
+
+
+var winWidth = $(window).width();
+if (winWidth < 1113) {
+    $(".submenu li.nsdnmenu ").click(function () {
+        $(this).toggleClass("on");
+        $(this).children(".hasChild").stop().slideToggle();
+
+        $(this).siblings(".submenu li.nsdnmenu").removeClass("on").children(".hasChild").stop().slideUp();
+    });
+}
+//手機次選單
+function MobileSubmenu() {
+    var winWidth = $(window).width();
+    if (winWidth < 1113) {
+
+        $("#greybg").css("display", "none");
+        $(".portfolio-filter.isotope-filter.pull-center,.hamburger").removeClass("on");
+        $('.hamburger').removeClass('is-active');
+
+    } else {
+
+        $("#greybg").css("display", "none");
+
+    }
+}
+
+//banner輪播
+function swiperbanner() {
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+}
+
+
+
+$(function () {
+
+    mobile_menu(); //手機選單
+    MobileSubmenu(); //手機次選單
+    swiperbanner(); //banner輪播
+
+});
